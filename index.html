@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="favicon.ico">
+    </head>
+  <body>
+    <div id="wrapper" class="d-flex toggled">
+	<div id="sidebar-wrapper">
+	    <div id="lg" class="list-group">
+		<div id="sidebar-carrier">
+		    <button id="dismiss" class="btn btn-primary">&lt;</button>
+		    <div id="divider-bar"></div>
+		    <div id="sidebar-content" class="container">
+			<div id="sidebar-heading" class="display-2"></div>
+			<div class="row">
+			    <p id="text-description" class="lead"></p>
+			</div>
+			<div id="events-container"
+			     class="row invisible">
+			    <ul id="events-list" class="list-unstyled">
+
+			    </ul>
+			</div>
+			<div class="row"
+			     data-toggle="tooltip"
+			     data-delay="350"
+			     title="Location">
+			    <div class="col-auto mr-auto"><img src="/img/point-red.png"/></div>
+			    <div id="text-address" class="col-auto"></div>
+			</div>
+			<div id="text-episodes-container"
+			     class="row"
+			     data-toggle="tooltip"
+			     data-delay="350"
+			     title="Mentioned in Lazlow Show episodes">
+			    <div class="col-auto mr-auto"><img src="/img/tape.png"/></div>
+			    <div id="text-episodes" class="col-auto"></div>
+			</div>
+			<div id="text-link-container"
+			     class="row invisible"
+			     data-toggle="tooltip"
+			     data-delay="350"
+			     title="Web">
+			    <div class="col-auto mr-auto"><img src="/img/web.png"/></div>
+			    <div class="col-auto"><a id="text-link"></a></div>
+			</div>
+			<div id="copyright" class="row copyright">
+			    <p>&copy; 2021. <a href="https://theparanoidtimes.org">theparanoidtimes.org</a></p><br/>
+			    <p>Disclaimer: All information is gathered from listening to the Lazlow Show. Some locations are confirmed, others are my free interpretation based on the story. Do not use this info to track Big Wayne's family!</p>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+	<div id="content-wrapper">
+	    <div id="main" class="container-fluid">
+		<div class="row">
+		    <div class="col text-center">
+			<img src="/img/b-year.png"/>
+		    </div>
+		    <div class="col-6 text-center">
+			<img src="/img/big-wayne.png"/>
+		    </div>
+		    <div class="col text-center">
+			<img src="/img/d-year.png"/>
+		    </div>
+		</div>
+		<div id="map"
+		     data-toggle="tooltip"
+		     data-delay="1500"
+		     title="Click on the pins to display more info about the location and the events tied to it. Some pins can be really close to each other, zoom the map to click on them.">
+		</div>
+	    </div>
+	</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="cljs-out/dev-main.js" type="text/javascript"></script>
+  </body>
+</html>
