@@ -91,7 +91,7 @@
               :coordinates [-73.900972 40.741433]
               :episodes [42 43]}]
  :neighbourhood {:ridgewood {:title "Ridgewood, Queens"
-                             :description "Big Wayne's neighborhood in Queens where he lived in his youth."
+                             :description "Ridgewood is the Queens neighborhood where Big Wayne was born and raised. Most importantly he spent most of his adolescent years living here."
                              :address "Ridgewood, Queens, NY, USA"
                              :coordinates [-73.914342 40.708035]
                              :extent [-74.119263 40.586321

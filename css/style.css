@@ -67,8 +67,9 @@ canvas {
     font-size: 70%;
     font-style: italic;
     position: absolute;
-    top: 93%;
+    top: 90%;
     color: #020202;
+    width: 50em;
 }
 
 @media (min-width: 768px) {
