@@ -7,7 +7,6 @@ body {
 
 canvas {
     border-radius: 30px;
-    cursor: pointer;
 }
 
 #wrapper {
@@ -70,6 +69,19 @@ canvas {
     top: 90%;
     color: #020202;
     width: 50em;
+}
+
+.ol-zoom {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    left: auto;
+}
+
+.ol-zoom-in, .ol-zoom-out {
+    background-color: #F72C28;
+    border: 0.5px solid #020202;
+    color: white;
 }
 
 @media (min-width: 768px) {

@@ -1,14 +1,9 @@
-{:locations [{:name "Copacabana (nightclub)"
-              :description "The legendary Manhattan night club where Big Wayne used to go out during the 80s."
-              :address "10 East 60th Street, Manhattan, NY, USA"
-              :coordinates [-73.971727 40.764403]
-              :episodes [37]
-              :web "https://en.wikipedia.org/wiki/Copacabana_(nightclub)"}
-             {:name "Abortion clinic"
-              :description "Big Wayne had a girlfriend Doreen who got pregnant with him. Her father talked to Big Wayne and addressed that he is in no situation to be a father and instructed them to go to an abortion. After the trip to the clinic, they returned home and got romantic again. A few weeks after, they were back in the clinic with the same reason."
+{:locations [{:name "Abortion clinic"
+              :description "Big Wayne had a girlfriend Doreen who got pregnant with him. Her father talked to Big Wayne and addressed that he is in no situation to be a father and instructed them to go to an abortion. After the trip to the clinic, they returned home and got romantic again. A few weeks after, they were back in the clinic with the same reason. Coincidentally, it is the place where legendary Manhattan night club Copacabana was, where Big Wayne used to go out during the 80s."
               :address "East 60th Street, Manhattan, NY, USA"
               :coordinates [-73.971653 40.764511]
-              :episodes [5 9 11 37]}
+              :episodes [5 9 11 37]
+              :web "https://en.wikipedia.org/wiki/Copacabana_(nightclub)"}
              {:name "Finger blowjob"
               :description "In his childhood Big Wayne and his friends went here to get hookers. Once they payed a hooker to do a blow job to the group. When it was Big Wayne's turn he was nervous and holding on his pockets because he heard stories of hookers stealing wallets during the action. This affected his performance and so the prostitute stimulated him, successfully, with a finger up his ass."
               :address "Queensboro Plaza, Queens, NY, USA"
