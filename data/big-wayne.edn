@@ -176,7 +176,13 @@
            :episodes [12]}
           {:location :ridgewood
            :description "Once Wayne used a tub of olive oil he took from his mom's work place to do anal sex with his girlfriend. At the end both of them and the whole couch were covered in olive oil."
-           :episodes [0]}]
+           :episodes [0]}
+          {:location :ridgewood
+           :description "Big Wayne and his friends used to steal cars for a living in Queens. They would steal t-tops from cars and sell them back for $90 to the owners, claiming they know who stole it and that they can get it back. Along side t-tops, they stole whole cars (mostly GTIs, Celicas) and sell them to chop-shops in Jamaica and other neighborhoods usually after 3 or 4 days to make sure the car isn't tracked."
+           :episodes [32]}
+          {:location :beach
+           :description "Once he had a huge argument with a woman wearing a 'Budweiser' swimsuit who he called 'Budweiser tits'."
+           :episodes [45]}]
  :trivia [{:description "Big Wayne's first concert was Neil Diamond and he was taken there by his aunt at the age of 10."
            :episodes [10]}
           {:description "Big Wayne once ate hemp granola that he got from Mat the marine."
